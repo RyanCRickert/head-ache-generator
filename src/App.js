@@ -7,7 +7,7 @@ function App() {
   const position = userMousePosition();
   const calcRed = (position.x / window.innerWidth) * 255;
   const calcGreen = (position.y / window.innerHeight) * 255;
-  const calcBlue = (calcRed + calcGreen * 255);
+  const calcBlue = ((calcRed + calcGreen) / 2);
 
   return (
     <div className="App">
