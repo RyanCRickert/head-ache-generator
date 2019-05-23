@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/heac-ache-generator/static/css/main.e400ee56.chunk.css",
+    "main.js": "/heac-ache-generator/static/js/main.c51441e0.chunk.js",
+    "main.js.map": "/heac-ache-generator/static/js/main.c51441e0.chunk.js.map",
+    "runtime~main.js": "/heac-ache-generator/static/js/runtime~main.20321850.js",
+    "runtime~main.js.map": "/heac-ache-generator/static/js/runtime~main.20321850.js.map",
+    "static/js/2.57080061.chunk.js": "/heac-ache-generator/static/js/2.57080061.chunk.js",
+    "static/js/2.57080061.chunk.js.map": "/heac-ache-generator/static/js/2.57080061.chunk.js.map",
+    "index.html": "/heac-ache-generator/index.html",
+    "precache-manifest.5e0d37ab9c21c99fbd0350546d1a6b22.js": "/heac-ache-generator/precache-manifest.5e0d37ab9c21c99fbd0350546d1a6b22.js",
+    "service-worker.js": "/heac-ache-generator/service-worker.js",
+    "static/css/main.e400ee56.chunk.css.map": "/heac-ache-generator/static/css/main.e400ee56.chunk.css.map"
+  }
+}
