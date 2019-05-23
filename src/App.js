@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import userMousePosition from "./hooks/useMousePosition";
 import './App.css';
 
 function App() {
+  const position = userMousePosition();
+  const calcRed = (position.x / window.innerWidth) * 255;
+  const calcGreen = (position.y / window.innerHeight) * 255;
+  const calcBlue = (calcRed + calcGreen * 255);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <header style={{ backgroundColor: `rgb(${calcRed},${calcGreen},${calcBlue})`}} className="App-header">
+        <p style={{color: `rgb(${255 - calcBlue},${255 - calcRed},${255 - calcGreen})`}}>
+          Head-ache Generator
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
