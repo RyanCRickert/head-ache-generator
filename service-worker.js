@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/head-ache-generator/precache-manifest.ba45a904ced135d362f4002235a7be2e.js"
+  "/head-ache-generator/precache-manifest.354c6eb5be41bcd98709a4d21bad10b1.js"
 );
 
 self.addEventListener('message', (event) => {
